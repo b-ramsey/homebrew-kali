@@ -23,4 +23,4 @@ brew install drppublic/kali/<package>
 * automater
 
 # Ignored
-* CaseFile
+* CaseFile (Commercial License)
