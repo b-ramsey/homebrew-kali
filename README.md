@@ -18,9 +18,12 @@ brew install drppublic/kali/<package>
 * acccheck
 * amap
 
-# Temporary Too-Hard Basket
+# Revisit...
 * ace-voip (UCSniff 3.20)
 * automater
+* cisco-torch
+* CookieCadger
+
 
 # Ignored
 * CaseFile (Commercial License)
