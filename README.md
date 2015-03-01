@@ -6,7 +6,9 @@ The ultimate goal is to brew all major Kali Linux tools (not already present in 
 
 # Already in homebrew/homebrew
 * acccheck
+* amap
 
 # Temporary Too-Hard Basket
 * ace-voip (UCSniff 3.20)
+* automater
 
