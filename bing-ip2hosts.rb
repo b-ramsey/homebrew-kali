@@ -6,6 +6,7 @@ class BingIp2hosts < Formula
   def install
     text = File.read("bing-ip2hosts")
     new_contents = text.gsub(/mktemp -p \$TMPDIR/, "mktemp")
+    new_contents = new_contents.gsub(/mktemp -p "\$TMPDIR"/, "mktemp")
     File.open("bing-ip2hosts", "w") { |file| file.puts new_contents }
     bin.install "bing-ip2hosts"
   end
