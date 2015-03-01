@@ -22,3 +22,5 @@ brew install drppublic/kali/<package>
 * ace-voip (UCSniff 3.20)
 * automater
 
+# Ignored
+* CaseFile
