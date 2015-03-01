@@ -4,7 +4,7 @@ class Braa < Formula
   sha1 "5b8ca4f248d04333663a81d25a54a1c9f2bb3fb6"
 
   def install
-    system "make", "install"
+    system "make", "all"
     bin.install "braa"
   end
 end
