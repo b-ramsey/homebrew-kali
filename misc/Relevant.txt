@@ -478,7 +478,6 @@ git://git.kali.org/packages/unicornscan.git unicornscan
 git://git.kali.org/packages/uniscan.git uniscan
 git://git.kali.org/packages/unix-privesc-check.git unix-privesc-check
 git://git.kali.org/packages/urlcrazy.git urlcrazy
-git://git.kali.org/packages/valgrind.git valgrind
 git://git.kali.org/packages/vboot-utils.git vboot-utils
 git://git.kali.org/packages/vega.git vega
 git://git.kali.org/packages/veil-catapult.git veil-catapult

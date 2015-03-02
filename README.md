@@ -25,6 +25,7 @@ brew install drppublic/kali/<package>
 * amap
 * nmap
 * Qemu
+* valgrind
 * wireshark
 * wine
 * winexe
