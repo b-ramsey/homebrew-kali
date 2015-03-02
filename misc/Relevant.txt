@@ -3,10 +3,8 @@ git://git.kali.org/packages/acccheck.git acccheck
 git://git.kali.org/packages/ace-voip.git ace-voip
 git://git.kali.org/packages/aircrack-ng.git aircrack-ng
 git://git.kali.org/packages/amap.git amap
-git://git.kali.org/packages/android-sdk.git android-sdk
 git://git.kali.org/packages/apache-users.git apache-users
 git://git.kali.org/packages/apktool.git apktool
-git://git.kali.org/packages/apt-setup.git apt-setup
 git://git.kali.org/packages/arachni.git arachni
 git://git.kali.org/packages/arduino.git arduino
 git://git.kali.org/packages/armitage.git armitage
@@ -14,7 +12,6 @@ git://git.kali.org/packages/arp-scan.git arp-scan
 git://git.kali.org/packages/asleap.git asleap
 git://git.kali.org/packages/automater.git automater
 git://git.kali.org/packages/backdoor-factory.git backdoor-factory
-git://git.kali.org/packages/base-files.git base-files
 git://git.kali.org/packages/bbqsql.git bbqsql
 git://git.kali.org/packages/bdfproxy.git bdfproxy
 git://git.kali.org/packages/bed.git bed
@@ -62,11 +59,8 @@ git://git.kali.org/packages/dbd.git dbd
 git://git.kali.org/packages/dbpwaudit.git dbpwaudit
 git://git.kali.org/packages/dc3dd.git dc3dd
 git://git.kali.org/packages/ddrescue.git ddrescue
-git://git.kali.org/packages/debian-cd.git debian-cd
-git://git.kali.org/packages/debian-installer.git debian-installer
 git://git.kali.org/packages/deblaze.git deblaze
 git://git.kali.org/packages/debootstrap.git debootstrap
-git://git.kali.org/packages/desktop-base.git desktop-base
 git://git.kali.org/packages/device-pharmer.git device-pharmer
 git://git.kali.org/packages/dex2jar.git dex2jar
 git://git.kali.org/packages/dff.git dff
@@ -150,8 +144,6 @@ git://git.kali.org/packages/galleta.git galleta
 git://git.kali.org/packages/gem2deb.git gem2deb
 git://git.kali.org/packages/ghost-phisher.git ghost-phisher
 git://git.kali.org/packages/giskismet.git giskismet
-git://git.kali.org/packages/glx-alternatives.git glx-alternatives
-git://git.kali.org/packages/gnome-screensaver.git gnome-screensaver
 git://git.kali.org/packages/gnuradio.git gnuradio
 git://git.kali.org/packages/golismero.git golismero
 git://git.kali.org/packages/goofile.git goofile
@@ -193,7 +185,6 @@ git://git.kali.org/packages/iaxflood.git iaxflood
 git://git.kali.org/packages/ikat.git ikat
 git://git.kali.org/packages/inetsim.git inetsim
 git://git.kali.org/packages/inguma.git inguma
-git://git.kali.org/packages/initramfs-tools.git initramfs-tools
 git://git.kali.org/packages/intersect.git intersect
 git://git.kali.org/packages/intrace.git intrace
 git://git.kali.org/packages/inundator.git inundator
@@ -224,7 +215,7 @@ git://git.kali.org/packages/libbfio.git libbfio
 git://git.kali.org/packages/libbtbb.git libbtbb
 git://git.kali.org/packages/libburn.git libburn
 git://git.kali.org/packages/libcrafter.git libcrafter
-git://git.kali.org/packages/libcrypt-mcrypt-perl.git git://git.kali.org/libcrypt-mcrypt-perl pacakge
+git://git.kali.org/packages/libcrypt-mcrypt-perl.git libcrypt-mcrypt-perl
 git://git.kali.org/packages/libewf.git libewf
 git://git.kali.org/packages/libfindrtp.git libfindrtp
 git://git.kali.org/packages/libfreefare.git libfreefare
@@ -237,13 +228,6 @@ git://git.kali.org/packages/libosmocore.git libosmocore
 git://git.kali.org/packages/libpff.git libpff
 git://git.kali.org/packages/libstree.git libstree
 git://git.kali.org/packages/linux-exploit-suggester.git linux-exploit-suggester
-git://git.kali.org/packages/linux-latest.git linux-latest
-git://git.kali.org/packages/linux-tools.git linux-tools
-git://git.kali.org/packages/linux.git linux
-git://git.kali.org/packages/live-boot.git live-boot
-git://git.kali.org/packages/live-build.git live-build
-git://git.kali.org/packages/live-config.git live-config
-git://git.kali.org/packages/live-installer.git live-installer
 git://git.kali.org/packages/lynis.git lynis
 git://git.kali.org/packages/magictree.git magictree
 git://git.kali.org/packages/maltego-teeth.git maltego-teeth
@@ -257,7 +241,7 @@ git://git.kali.org/packages/metasploit-common.git metasploit-common
 git://git.kali.org/packages/metasploit-framework.git metasploit-framework
 git://git.kali.org/packages/metasploit.git metasploit
 git://git.kali.org/packages/mfcuk.git mfcuk
-git://git.kali.org/packages/mfoc.git mifare mfoc
+git://git.kali.org/packages/mfoc.git mifare-mfoc
 git://git.kali.org/packages/mfterm.git mfterm
 git://git.kali.org/packages/mimikatz.git mimikatz
 git://git.kali.org/packages/miranda.git miranda
@@ -270,17 +254,14 @@ git://git.kali.org/packages/multimon-ng.git multimon-ng
 git://git.kali.org/packages/ncat-w32.git ncat-w32
 git://git.kali.org/packages/ncrack.git ncrack
 git://git.kali.org/packages/ndg-httpsclient.git ndg-httpsclient
-git://git.kali.org/packages/ndpi.git ndpi library
+git://git.kali.org/packages/ndpi.git ndpi-library
 git://git.kali.org/packages/net-retriever.git net-retriever
 git://git.kali.org/packages/netcfg.git netcfg
 git://git.kali.org/packages/nfspy.git nfspy
 git://git.kali.org/packages/nikto.git nikto
 git://git.kali.org/packages/nipper-ng.git nipper-ng
 git://git.kali.org/packages/nishang.git nishang
-git://git.kali.org/packages/nmap.git nmap
 git://git.kali.org/packages/ntop.git ntop
-git://git.kali.org/packages/nvidia-graphics-drivers.git nvidia-graphics-drivers
-git://git.kali.org/packages/nvidia-graphics-modules.git nvidia-graphics-modules
 git://git.kali.org/packages/nvidia-modprobe.git nvidia-modprobe
 git://git.kali.org/packages/o-saft.git o-saft
 git://git.kali.org/packages/oclgausscrack.git oclgausscrack
@@ -359,7 +340,6 @@ git://git.kali.org/packages/python-twitter-toolset.git python-twitter-toolset
 git://git.kali.org/packages/python-usb.git python-usb
 git://git.kali.org/packages/python-xdot.git python-xdot
 git://git.kali.org/packages/pyusb.git pyusb
-git://git.kali.org/packages/qemu.git qemu
 git://git.kali.org/packages/rainbowcrack.git rainbowcrack
 git://git.kali.org/packages/rcracki-mt.git rcracki-mt
 git://git.kali.org/packages/rdesktop.git rdesktop
@@ -526,9 +506,6 @@ git://git.kali.org/packages/wifite.git wifite
 git://git.kali.org/packages/windows-binaries.git windows-binaries
 git://git.kali.org/packages/windows-privesc-check.git windows-privesc-check
 git://git.kali.org/packages/wine-python-2.7.git wine-python-2.7
-git://git.kali.org/packages/wine.git wine
-git://git.kali.org/packages/winexe.git winexe
-git://git.kali.org/packages/wireshark.git wireshark
 git://git.kali.org/packages/wkhtmltopdf.git wkhtmltopdf
 git://git.kali.org/packages/wmi.git wmi
 git://git.kali.org/packages/wmis.git wmis

@@ -24,6 +24,10 @@ brew install drppublic/kali/<package>
 # Already in homebrew/homebrew
 * amap
 * nmap
+* Qemu
+* wireshark
+* wine
+* winexe
 * ...
 
 # Revisit...
