@@ -4,9 +4,9 @@
 
 class FruitywifiModuleUrlsnarf < Formula
   homepage ""
-  url "git://git.kali.org/packages/fruitywifi-module-urlsnarf.git"
+  head "git://git.kali.org/packages/fruitywifi-module-headsnarf.git"
   version "module"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
@@ -28,7 +28,7 @@ class FruitywifiModuleUrlsnarf < Formula
     #
     # This test will fail and we won't accept that! It's enough to just replace
     # "false" with the main program this formula installs, but it'd be nice if you
-    # were more thorough. Run the test with `brew test fruitywifi-module-urlsnarf`. Options passed
+    # were more thorough. Run the test with `brew test fruitywifi-module-headsnarf`. Options passed
     # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
     #
     # The installed folder is not in the path, so use the entire path to any

@@ -4,9 +4,9 @@
 
 class RubyRubyzip < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-rubyzip.git"
+  head "git://git.kali.org/packages/ruby-rubyzip.git"
   version "rubyzip"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

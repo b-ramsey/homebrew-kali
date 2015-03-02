@@ -4,9 +4,9 @@
 
 class FernWifiCracker < Formula
   homepage ""
-  url "git://git.kali.org/packages/fern-wifi-cracker.git"
+  head "git://git.kali.org/packages/fern-wifi-cracker.git"
   version "wifi"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

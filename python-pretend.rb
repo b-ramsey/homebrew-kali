@@ -4,9 +4,9 @@
 
 class PythonPretend < Formula
   homepage ""
-  url "git://git.kali.org/packages/python-pretend.git"
+  head "git://git.kali.org/packages/python-pretend.git"
   version "pretend"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

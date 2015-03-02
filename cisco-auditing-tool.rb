@@ -4,9 +4,9 @@
 
 class CiscoAuditingTool < Formula
   homepage ""
-  url "git://git.kali.org/packages/cisco-auditing-tool.git"
+  head "git://git.kali.org/packages/cisco-auditing-tool.git"
   version "auditing"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

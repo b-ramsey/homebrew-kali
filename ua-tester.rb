@@ -4,9 +4,9 @@
 
 class UaTester < Formula
   homepage ""
-  url "git://git.kali.org/packages/ua-tester.git"
+  head "git://git.kali.org/packages/ua-tester.git"
   version "tester"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

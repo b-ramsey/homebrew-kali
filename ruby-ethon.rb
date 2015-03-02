@@ -4,9 +4,9 @@
 
 class RubyEthon < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-ethon.git"
+  head "git://git.kali.org/packages/ruby-ethon.git"
   version "ethon"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

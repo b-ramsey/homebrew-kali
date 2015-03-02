@@ -4,9 +4,9 @@
 
 class IsrEvilgrade < Formula
   homepage ""
-  url "git://git.kali.org/packages/isr-evilgrade.git"
+  head "git://git.kali.org/packages/isr-evilgrade.git"
   version "evilgrade"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

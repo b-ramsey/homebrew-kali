@@ -4,9 +4,9 @@
 
 class RubyTerminalTable < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-terminal-table.git"
+  head "git://git.kali.org/packages/ruby-terminal-table.git"
   version "terminal"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

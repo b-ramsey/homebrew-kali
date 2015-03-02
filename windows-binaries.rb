@@ -4,9 +4,9 @@
 
 class WindowsBinaries < Formula
   homepage ""
-  url "git://git.kali.org/packages/windows-binaries.git"
+  head "git://git.kali.org/packages/windows-binaries.git"
   version "binaries"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

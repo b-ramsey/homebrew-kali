@@ -4,9 +4,9 @@
 
 class BingIp2hosts < Formula
   homepage ""
-  url "git://git.kali.org/packages/bing-ip2hosts.git"
+  head "git://git.kali.org/packages/bing-ip2hosts.git"
   version "ip2hosts"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

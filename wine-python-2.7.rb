@@ -4,9 +4,9 @@
 
 class WinePython27 < Formula
   homepage ""
-  url "git://git.kali.org/packages/wine-python-2.7.git"
+  head "git://git.kali.org/packages/wine-python-2.7.git"
   version "2.7"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

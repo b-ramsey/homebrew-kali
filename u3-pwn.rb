@@ -4,9 +4,9 @@
 
 class U3Pwn < Formula
   homepage ""
-  url "git://git.kali.org/packages/u3-pwn.git"
+  head "git://git.kali.org/packages/u3-pwn.git"
   version "pwn"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

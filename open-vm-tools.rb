@@ -4,9 +4,9 @@
 
 class OpenVmTools < Formula
   homepage ""
-  url "git://git.kali.org/packages/open-vm-tools.git"
+  head "git://git.kali.org/packages/open-vm-tools.git"
   version "m"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

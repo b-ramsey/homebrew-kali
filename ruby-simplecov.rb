@@ -4,9 +4,9 @@
 
 class RubySimplecov < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-simplecov.git"
+  head "git://git.kali.org/packages/ruby-simplecov.git"
   version "simplecov"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

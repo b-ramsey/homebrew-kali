@@ -4,9 +4,9 @@
 
 class Ipv6Toolkit < Formula
   homepage ""
-  url "git://git.kali.org/packages/ipv6-toolkit.git"
+  head "git://git.kali.org/packages/ipv6-toolkit.git"
   version "toolkit"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

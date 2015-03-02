@@ -4,9 +4,9 @@
 
 class PythonTwitterToolset < Formula
   homepage ""
-  url "git://git.kali.org/packages/python-twitter-toolset.git"
+  head "git://git.kali.org/packages/python-twitter-toolset.git"
   version "twitter"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

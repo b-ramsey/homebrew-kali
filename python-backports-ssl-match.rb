@@ -4,9 +4,9 @@
 
 class PythonBackportsSslMatch < Formula
   homepage ""
-  url "git://git.kali.org/packages/python-backports-ssl-match-hostname.git"
+  head "git://git.kali.org/packages/python-backports-ssl-match-hostname.git"
   version "backports"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

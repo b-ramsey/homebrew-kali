@@ -4,9 +4,9 @@
 
 class RubyMsfrpcClient < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-msfrpc-client.git"
+  head "git://git.kali.org/packages/ruby-msfrpc-client.git"
   version "msfrpc"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

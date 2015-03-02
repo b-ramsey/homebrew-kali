@@ -4,8 +4,8 @@
 
 class Zer0trace < Formula
   homepage ""
-  url "git://git.kali.org/packages/0trace.git"
-  sha1 ""
+  head "git://git.kali.org/packages/0trace.git"
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

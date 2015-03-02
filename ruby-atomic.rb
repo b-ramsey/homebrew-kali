@@ -4,9 +4,9 @@
 
 class RubyAtomic < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-atomic.git"
+  head "git://git.kali.org/packages/ruby-atomic.git"
   version "atomic"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

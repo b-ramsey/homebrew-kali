@@ -4,9 +4,9 @@
 
 class PassingTheHash < Formula
   homepage ""
-  url "git://git.kali.org/packages/passing-the-hash.git"
+  head "git://git.kali.org/packages/passing-the-hash.git"
   version "the"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

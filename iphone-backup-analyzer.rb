@@ -4,9 +4,9 @@
 
 class IphoneBackupAnalyzer < Formula
   homepage ""
-  url "git://git.kali.org/packages/iphone-backup-analyzer.git"
+  head "git://git.kali.org/packages/iphone-backup-analyzer.git"
   version "backup"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

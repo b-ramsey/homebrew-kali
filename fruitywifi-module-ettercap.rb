@@ -4,9 +4,9 @@
 
 class FruitywifiModuleEttercap < Formula
   homepage ""
-  url "git://git.kali.org/packages/fruitywifi-module-ettercap.git"
+  head "git://git.kali.org/packages/fruitywifi-module-ettercap.git"
   version "module"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

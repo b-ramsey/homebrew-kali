@@ -4,9 +4,9 @@
 
 class RubyMinitest < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-minitest.git"
+  head "git://git.kali.org/packages/ruby-minitest.git"
   version "minitest"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

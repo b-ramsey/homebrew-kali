@@ -4,9 +4,9 @@
 
 class BulkExtractor < Formula
   homepage ""
-  url "git://git.kali.org/packages/bulk-extractor.git"
+  head "git://git.kali.org/packages/bulk-extractor.git"
   version "extractor"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

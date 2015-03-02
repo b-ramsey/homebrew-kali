@@ -4,9 +4,9 @@
 
 class RubyDmDoAdapter < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-dm-do-adapter.git"
+  head "git://git.kali.org/packages/ruby-dm-do-adapter.git"
   version "dm"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

@@ -4,9 +4,9 @@
 
 class GhostPhisher < Formula
   homepage ""
-  url "git://git.kali.org/packages/ghost-phisher.git"
+  head "git://git.kali.org/packages/ghost-phisher.git"
   version "phisher"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

@@ -4,9 +4,9 @@
 
 class ThcSslDos < Formula
   homepage ""
-  url "git://git.kali.org/packages/thc-ssl-dos.git"
+  head "git://git.kali.org/packages/thc-ssl-dos.git"
   version "ssl"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

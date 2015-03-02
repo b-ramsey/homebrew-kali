@@ -4,9 +4,9 @@
 
 class GreenboneSecurityAssistant < Formula
   homepage ""
-  url "git://git.kali.org/packages/greenbone-security-assistant.git"
+  head "git://git.kali.org/packages/greenbone-security-assistant.git"
   version "security"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

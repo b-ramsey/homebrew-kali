@@ -4,9 +4,9 @@
 
 class RubyRef < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-ref.git"
+  head "git://git.kali.org/packages/ruby-ref.git"
   version "ref"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

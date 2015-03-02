@@ -4,9 +4,9 @@
 
 class GoogleNexusTools < Formula
   homepage ""
-  url "git://git.kali.org/packages/google-nexus-tools.git"
+  head "git://git.kali.org/packages/google-nexus-tools.git"
   version "nexus"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

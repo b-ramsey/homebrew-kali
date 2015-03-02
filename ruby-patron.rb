@@ -4,9 +4,9 @@
 
 class RubyPatron < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-patron.git"
+  head "git://git.kali.org/packages/ruby-patron.git"
   version "patron"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

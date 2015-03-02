@@ -4,9 +4,9 @@
 
 class FreeradiusWpe < Formula
   homepage ""
-  url "git://git.kali.org/packages/freeradius-wpe.git"
+  head "git://git.kali.org/packages/freeradius-wpe.git"
   version "wpe"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

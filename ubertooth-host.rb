@@ -4,9 +4,9 @@
 
 class UbertoothHost < Formula
   homepage ""
-  url "git://git.kali.org/packages/ubertooth-host.git"
+  head "git://git.kali.org/packages/ubertooth-host.git"
   version "host"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

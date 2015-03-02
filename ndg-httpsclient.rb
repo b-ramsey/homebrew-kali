@@ -4,9 +4,9 @@
 
 class NdgHttpsclient < Formula
   homepage ""
-  url "git://git.kali.org/packages/ndg-httpsclient.git"
+  head "git://git.kali.org/packages/ndg-httpsclient.git"
   version "httpsclient"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

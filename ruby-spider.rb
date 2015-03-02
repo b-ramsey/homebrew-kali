@@ -4,9 +4,9 @@
 
 class RubySpider < Formula
   homepage ""
-  url "git://git.kali.org/packages/ruby-spider.git"
+  head "git://git.kali.org/packages/ruby-spider.git"
   version "spider"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components

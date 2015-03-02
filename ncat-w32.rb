@@ -4,9 +4,9 @@
 
 class NcatW32 < Formula
   homepage ""
-  url "git://git.kali.org/packages/ncat-w32.git"
+  head "git://git.kali.org/packages/ncat-w32.git"
   version "32"
-  sha1 ""
+  
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
