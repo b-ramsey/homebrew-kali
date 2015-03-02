@@ -15,25 +15,79 @@ The development plan for this repository is as follows. Scritps are not guarante
 ```
 # Kali on tap:
 brew tap drppublic/kali
-brew install <package>
+brew install [--HEAD] <package>
 
 # Alternatively, without kali on tap:
-brew install drppublic/kali/<package>
+brew install [--HEAD] drppublic/kali/<package>
 ```
 
 # Already in homebrew/homebrew
+* aescrypt-packetizer
+* aircrack-ng
 * amap
+* apktool
+* arp-scan
+* binwalk
+* capstone
+* (cmu-)sphinxbase
+* cowpatty
+* crunch
+* dc3dd
+* ddrescue
+* dex2jar
+* dns2tcp
+* dnsmap
+* dnstracer
+* dos2unix
+* ettercap
+* fcrackzip
+* foremost
+* fragroute
+* httptunnel
+* hydra
+* libbtbb
+* libewf
+* libfreefare
+* libmicrohttpd
+* libnfc
+* lynis
+* masscan
+* mfcuk
+* mitmproxy
+* msgpack (non-python)
+* ncrack
+* nikto
 * nmap
-* Qemu
+* p0f
+* pixz
+* proxychains-ng
+* pwnat
+* qemu
+* reaver
+* rtl-sdr
+* rtpbreak
+* sipp
+* skipfish
+* sleuthkit
+* slowhttptest
+* smali
+* sqlmap
+* ssdeep
+* sslscan
+* thc-pptp-bruter
+* theharvester
+* truecrack
 * valgrind
-* wireshark
+* volatility
 * wine
 * winexe
-* ...
-
-# Revisit...
-
+* wireshark
+* yara (non-python)
 
 # Intentionally Ignored
 * CaseFile (Commercial License)
 * Android SDK (Use official installer)
+
+# Revisit...
+* ...
+
