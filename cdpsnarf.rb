@@ -9,4 +9,4 @@ class Cdpsnarf < Formula
     system "make", "all"
     bin.install "cdpsnarf"
   end
-end #
+end
