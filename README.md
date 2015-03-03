@@ -85,6 +85,7 @@ brew install [--HEAD] drppublic/kali/<package>
 * yara (non-python)
 
 # Intentionally Ignored
+* Arachni (Use official installer) 
 * CaseFile (Commercial License)
 * Android SDK (Use official installer)
 * VirtualBox (Use official installer)
