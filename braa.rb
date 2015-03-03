@@ -8,4 +8,4 @@ class Braa < Formula
     system "make", "all"
     bin.install "braa"
   end
-end #
+end
