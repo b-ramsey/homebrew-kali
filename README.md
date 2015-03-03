@@ -44,6 +44,7 @@ brew install [--HEAD] drppublic/kali/<package>
 * fragroute
 * httptunnel
 * hydra
+* john-the-ripper (as john-jumbo)
 * libbtbb
 * libewf
 * libfreefare
