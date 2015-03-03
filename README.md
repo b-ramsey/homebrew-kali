@@ -42,6 +42,7 @@ brew install [--HEAD] drppublic/kali/<package>
 * fcrackzip
 * foremost
 * fragroute
+* hping
 * httptunnel
 * hydra
 * john-the-ripper (as john-jumbo)
