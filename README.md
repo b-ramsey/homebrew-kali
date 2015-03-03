@@ -22,7 +22,6 @@ brew install [--HEAD] drppublic/kali/<package>
 ```
 
 # Already in homebrew/homebrew
-* aescrypt-packetizer
 * aircrack-ng
 * amap
 * apktool
