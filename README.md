@@ -88,6 +88,7 @@ brew install [--HEAD] drppublic/kali/<package>
 * CaseFile (Commercial License)
 * Android SDK (Use official installer)
 * VirtualBox (Use official installer)
+* Arduino (Use official installer)
 
 
 # Revisit...
