@@ -26,9 +26,9 @@ brew install [--HEAD] drppublic/kali/<package>
 * Follow Homebrew's guides on [Acceptable Formulae](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md), the [Ruby Style Guide] (https://github.com/styleguide/ruby) (for complex scripts).
 * If you need help getting started, there's the [Homebrew Formula Cookbook] (https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md), along with a [Formula Cheat Sheet] (https://github.com/Homebrew/homebrew/blob/master/Library/Contributions/example-formula.rb).
 
-* Fork this repo
-* Edit *ONE* script
-* Pull-request
+1. Fork this repo
+2. Edit *ONE* script
+3. Pull-request
 
 One script per pull request please. :)
 
