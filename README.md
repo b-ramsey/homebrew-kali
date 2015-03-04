@@ -28,7 +28,7 @@ brew install [--HEAD] drppublic/kali/<package>
 
 1. Fork this repo
 2. Edit *ONE* script
-3. Pull-request
+3. Pull Request
 
 One script per pull request please. :)
 
