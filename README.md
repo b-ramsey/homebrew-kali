@@ -21,6 +21,17 @@ brew install [--HEAD] <package>
 brew install [--HEAD] drppublic/kali/<package>
 ```
 
+# Contributor Guidelines
+* Don't touch any scripts marked with a 'complete' commit message
+* Follow Homebrew's guides on [Acceptable Formulae](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md), the [Ruby Style Guide] (https://github.com/styleguide/ruby) (for complex scripts).
+* If you need help getting started, there's the [Homebrew Formula Cookbook] (https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md), along with a [Formula Cheat Sheet] (https://github.com/Homebrew/homebrew/blob/master/Library/Contributions/example-formula.rb).
+
+* Fork this repo
+* Edit **ONE** script
+* Pull-request
+
+One script per pull request please. :)
+
 # Already in homebrew/homebrew
 * aircrack-ng
 * amap
@@ -91,7 +102,7 @@ brew install [--HEAD] drppublic/kali/<package>
 * Android SDK (Use official installer)
 * VirtualBox (Use official installer)
 * Arduino (Use official installer)
-
+* OllyDbg (No OS X support - may be possible with WINE? Investigate...)
 
 # Revisit...
 * ...
