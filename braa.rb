@@ -1,7 +1,7 @@
 class Braa < Formula
   homepage "http://s-tech.elsat.net.pl"
   url "http://s-tech.elsat.net.pl/braa/braa-0.82.tar.gz"
-  sha1 "5b8ca4f248d04333663a81d25a54a1c9f2bb3fb6"
+  sha256 "d650d34cdf30fcbbbbf4e4f11c8f5d51fd5caa3cca58d620fa1d978b8c18919c"
   head "git://git.kali.org/packages/braa.git"
 
   def install
@@ -9,3 +9,4 @@ class Braa < Formula
     bin.install "braa"
   end
 end
+
