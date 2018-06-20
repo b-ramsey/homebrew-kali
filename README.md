@@ -14,11 +14,11 @@ The development plan for this repository is as follows. Scritps are not guarante
 # Usage
 ```
 # Kali on tap:
-brew tap drppublic/kali
+brew tap b-ramsey/homebrew-kali
 brew install [--HEAD] <package>
 
 # Alternatively, without kali on tap:
-brew install [--HEAD] drppublic/kali/<package>
+brew install [--HEAD] b-ramsey/homebrew-kali/<package>
 ```
 
 # Contributor Guidelines
