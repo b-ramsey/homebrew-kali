@@ -23,8 +23,8 @@ brew install [--HEAD] b-ramsey/homebrew-kali/<package>
 
 # Contributor Guidelines
 * Don't touch any scripts marked with a 'complete' commit message
-* Follow Homebrew's guides on [Acceptable Formulae](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md), the [Ruby Style Guide] (https://github.com/styleguide/ruby) (for complex scripts).
-* If you need help getting started, there's the [Homebrew Formula Cookbook] (https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md), along with a [Formula Cheat Sheet] (https://github.com/Homebrew/homebrew/blob/master/Library/Contributions/example-formula.rb).
+* Follow Homebrew's guides on [Acceptable Formulae](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Acceptable-Formulae.md), the [Ruby Style Guide](https://github.com/styleguide/ruby) (for complex scripts).
+* If you need help getting started, there's the [Homebrew Formula Cookbook](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md), along with a [Formula Cheat Sheet](https://github.com/Homebrew/homebrew/blob/master/Library/Contributions/example-formula.rb).
 
 1. Fork this repo
 2. Edit *ONE* script
