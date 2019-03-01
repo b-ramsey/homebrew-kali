@@ -14,6 +14,9 @@ class Dirb < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
+    # patch the default path
+    nreplace "src/dirb.c", /\/usr\/share/, "/usr/local/share"
+    
     system "chmod", "+x", "./configure"
     # Remove unrecognized options if warned by configure
     system "./configure", "--disable-debug",
@@ -22,6 +25,9 @@ class Dirb < Formula
                           "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     system "make", "install" # if this fails, try separate make/make install steps
+    
+    # install share files
+    (share/"dirb").install "wordlists" => "wordlists"
   end
 
   test do
