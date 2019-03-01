@@ -4,15 +4,17 @@
 
 class Dirb < Formula
   homepage ""
-  head "git://git.kali.org/packages/dirb.git"
+  head "git://git.kali.org/packages/dirb.git", :branch "kali/master"
   
-
+  # 
   # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
+  # depends_on :x11 # if your formula requires any X11/XQuartz components
+  depends_on "curl"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
+    system "chmod", "+x", "./configure"
     # Remove unrecognized options if warned by configure
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
