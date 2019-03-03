@@ -15,7 +15,7 @@ class Dirb < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
 
     # patch the default path
-    nreplace "src/dirb.c", /\/usr\/share/, "/usr/local/share"
+    inreplace "src/dirb.c", /\/usr\/share/, "/usr/local/share"
     
     system "chmod", "+x", "./configure"
     # Remove unrecognized options if warned by configure
