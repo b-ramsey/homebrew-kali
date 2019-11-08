@@ -4,7 +4,7 @@
 
 class Dirb < Formula
   homepage ""
-  head "https://gitlab.com/kalilinux/packages/dirb.git"
+  head "https://gitlab.com/kalilinux/packages/dirb.git", :branch => "kali/master"
   
   # 
   # depends_on "cmake" => :build
