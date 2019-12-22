@@ -4,15 +4,20 @@
 
 class Dirb < Formula
   homepage ""
-  head "git://git.kali.org/packages/dirb.git"
+  head "https://gitlab.com/kalilinux/packages/dirb.git", :branch => "kali/master"
   
-
+  # 
   # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
+  # depends_on :x11 # if your formula requires any X11/XQuartz components
+  depends_on "curl"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
+    # patch the default path
+    inreplace "src/dirb.c", /\/usr\/share/, "/usr/local/share"
+    
+    system "chmod", "+x", "./configure"
     # Remove unrecognized options if warned by configure
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
@@ -20,6 +25,9 @@ class Dirb < Formula
                           "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     system "make", "install" # if this fails, try separate make/make install steps
+    
+    # install share files
+    (share/"dirb").install "wordlists" => "wordlists"
   end
 
   test do
